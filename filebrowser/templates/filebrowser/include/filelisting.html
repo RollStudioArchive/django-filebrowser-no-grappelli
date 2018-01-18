@@ -53,7 +53,7 @@
                         </div>
                     {% endif %}
                     <!-- select original -->
-                    <a class="button" href="#" onclick="FileBrowserDialogue.fileSubmit('{{ request.build_absolute_uri }}{{ fileobject.url|escapejs }}');">{% trans "Select" %}</a>
+                    <a class="button" href="#" onclick="FileBrowserDialogue.fileSubmit('//{{ request.get_host }}{{ fileobject.url|escapejs }}');">{% trans "Select" %}</a>
                 {% else %}
                     &nbsp;
                 {% endif %}
