@@ -223,7 +223,7 @@ span.qq-upload-file {
 
 /* Django 1.8 */
 .popup.filebrowser .old-design .object-tools {
-    margin-top: -20px;
+    margin-top: -30px;
 }
 
 .old-design .pulldown-versions-handler:after {
